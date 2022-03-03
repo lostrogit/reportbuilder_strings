@@ -1,0 +1,273 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'reportbuilder', language 'ja', version '4.0'.
+ *
+ * @package     reportbuilder
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['accesstab'] = 'アクセス';
+$string['addacondition'] = '条件を追加…';
+$string['addafilter'] = 'フィルタを追加…';
+$string['adddefault'] = 'デフォルト設定を追加';
+$string['adddefault_help'] = '各レポートはデフォルトの列、条件とフィルタも定義します。デフォルトを使ってレポートを作成したい場合は、このフィールドを選択してください';
+$string['addemails'] = '手動でEメールを追加';
+$string['addfieldbyname'] = 'レポートにフィールド \'{$a}\' を追加';
+$string['addreport'] = '新しいレポート';
+$string['addschedule'] = '新しいスケジュール';
+$string['addusers_help'] = '手動で追加されたすべてのユーザーは、職位や部門に関係なく、このレポートを受け取ります';
+$string['aggregation_avg'] = '平均';
+$string['aggregation_count'] = '数';
+$string['aggregation_countdistinct'] = '一意の数';
+$string['aggregation_groupconcat'] = '半角カンマ区切り';
+$string['aggregation_groupconcatdistinct'] = '半角カンマ区切り(重複無し)';
+$string['aggregation_max'] = '最大';
+$string['aggregation_min'] = '最小';
+$string['aggregation_percent'] = 'パーセンテージ';
+$string['aggregation_sum'] = '合計';
+$string['aggregation_unique'] = '一意の値';
+$string['and'] = 'かつ';
+$string['asc'] = '列 \'{$a}\' は昇順です';
+$string['audiencejobadd'] = 'ジョブを追加';
+$string['audiencejobremove'] = 'ジョブを削除';
+$string['audiencejobs'] = 'ジョブ';
+$string['audiencejobs_help'] = '以下のいずれかのジョブに所属している場合、ユーザはこのレポートを表示できます';
+$string['audiencejobsempty'] = '追加された職種はありません';
+$string['audiences'] = 'レポート閲覧者';
+$string['availableinalltenants'] = 'すべてのテナントで利用可能';
+$string['availableinalltenants_help'] = '有効にすると、すべてのテナントのユーザー（適切な権限を持つ）がこのレポートを表示できるようになります。ほとんどのレポートソースは、表示されるユーザーおよびその他のエンティティ（プログラム、認定、コース）をテナント内に表示されるものに自動的に制限します。';
+$string['basicinformation'] = '基本情報';
+$string['cachedef_userreports'] = 'ユーザがアクセスできるカスタムレポート';
+$string['canviewallreports'] = 'すべてのレポートを表示できます';
+$string['certificatesissues'] = '認定証の発行';
+$string['certificatetemplates'] = '認定証テンプレート';
+$string['checkboxanyvalue'] = '任意の値';
+$string['checkboxischecked'] = 'Yes';
+$string['checkboxisnotchecked'] = 'No';
+$string['choose'] = '選択してください…';
+$string['conditionshelp'] = '条件';
+$string['conditionshelp_help'] = 'このレポートを表示するときに常に適用される事前定義済みの条件の一覧。';
+$string['conditionstab'] = '条件';
+$string['confirm'] = '確認';
+$string['confirmdeletecondition'] = '本当に条件 \'{$a}\' を削除しますか？';
+$string['confirmdeleteschedule'] = '本当にスケジュール \'{$a}\' と関連するすべてのデータを削除しますか？この操作は元に戻せません。';
+$string['confirmresetallconditions'] = '本当にすべての条件をリセットしますか？';
+$string['confirmresetconditions'] = '本当に条件 \'{$a}\' をリセットしますか？';
+$string['confirmsendschedule'] = '本当に送信のためにキュー \'{$a}\' に入れますか？';
+$string['course_completion_days_course'] = 'コース受講日数';
+$string['course_completion_days_enrolled'] = '登録日数';
+$string['course_completion_progress'] = '進捗';
+$string['course_completion_progress_percent'] = '進捗(%)';
+$string['course_completion_reaggregate'] = '時間を再集計';
+$string['course_completion_timecompleted'] = '完了時間';
+$string['course_completion_timeenrolled'] = '登録時間';
+$string['course_completion_timestarted'] = '開始時間';
+$string['course_enrolment_status'] = '登録ステータス';
+$string['course_enrolment_timeended'] = '登録終了';
+$string['course_enrolment_timestarted'] = '登録開始';
+$string['customessage'] = 'カスタムメッセージ';
+$string['customizecondition'] = '条件名を編集';
+$string['customizefilter'] = 'フィルタ名を編集';
+$string['customizeheader'] = '列ヘッダ \'{$a}\' を編集';
+$string['customreportsdesc'] = 'レポート閲覧者とスケジュールデータを含むカスタムレポート';
+$string['dateanyvalue'] = '任意の値';
+$string['datecreated'] = '作成日';
+$string['datecurrent'] = '現在の';
+$string['dateinthefuture'] = '未来';
+$string['dateinthepast'] = '過去';
+$string['dateisempty'] = '空白';
+$string['dateisnotempty'] = '空白ではない';
+$string['datelast'] = '過去…日間';
+$string['datenext'] = '今後…日間';
+$string['dateprevious'] = '以前の';
+$string['daterange'] = '日付の範囲';
+$string['daterangefrom'] = 'From';
+$string['daterangeto'] = 'To';
+$string['datetostart'] = '日付';
+$string['dateupcoming'] = '直近の';
+$string['debugsqlparams'] = 'パラメータ';
+$string['debugsqlquery'] = '現在のクエリ';
+$string['deletereportmsg'] = '本当にレポート \'{$a}\' と関連するすべてのデータを削除しますか？この操作は元に戻せません。';
+$string['deletereportsuccess'] = 'レポートが削除されました';
+$string['desc'] = '列 \'{$a}\' は降順です';
+$string['description'] = '説明';
+$string['description_help'] = 'レポートの目的について説明してください。';
+$string['duplicate'] = '複製';
+$string['duplicatereport'] = 'レポートを複製';
+$string['editmode'] = '編集ビューに切り替え';
+$string['editreport'] = 'コンテンツを編集';
+$string['editschedule'] = 'スケジュールを編集';
+$string['edittitle'] = 'レポート \'{$a}\' を編集';
+$string['enablesortingon'] = '列 \'{$a}\' の並べ替えを利用可能にする';
+$string['enteremail'] = '有効なメールアドレスを入力し、Enterを押してください';
+$string['entitycertificate'] = '認定証';
+$string['entitycertificateissue'] = '認定証の発行';
+$string['entitycoursecompletion'] = 'コース完了';
+$string['entitycourseenrolment'] = 'コースの登録';
+$string['entitydatastorecoursecompletion'] = 'データストアコースの完了';
+$string['entityreportbuilder'] = 'カスタムレポート';
+$string['entityschedule'] = 'スケジュール';
+$string['error:mustselectformat'] = '形式を選択する必要があります。';
+$string['error:mustselectsource'] = 'レポートソースを選択する必要があります。';
+$string['errormanageschedules'] = 'スケジュールを管理するパーミッションがありません';
+$string['errormissingreportsource'] = '設定済みのレポートソースが見つかりませんでした';
+$string['errornorecipients'] = 'このスケジュールを受ける側の人をいくつか選択する必要があります';
+$string['errorunavailablereportsource'] = '構成されたレポートソースは利用できません';
+$string['eventreportcreated'] = '作成されたレポート';
+$string['eventreportdeleted'] = '削除されたレポート';
+$string['eventreportschedulecreated'] = '作成されたレポートスケジュール';
+$string['eventreportscheduledeleted'] = '削除されたレポートスケジュール';
+$string['eventreportscheduleupdated'] = '更新されたレポートスケジュール';
+$string['eventreportupdated'] = '更新されたレポート';
+$string['eventreportviewed'] = '表示されたレポート';
+$string['exportselectall'] = 'すべてのカスタムレポートをエクスポートする';
+$string['exportselectlimit'] = '特定のカスタムレポートをエクスポートする';
+$string['filternotvalid'] = 'フィルタはfilter_baseのサブクラスである必要があります。';
+$string['filtersbutton'] = 'フィルタサイドバーを表示 / 非表示';
+$string['filtershelp'] = 'フィルタ';
+$string['filtershelp_help'] = '自動的に適用されませんが、ユーザが利用できるフィルタの一覧です。';
+$string['filterstab'] = 'フィルタ';
+$string['format'] = '形式';
+$string['fullnamewithlink'] = 'プロファイルリンク付きの氏名';
+$string['fullnamewithpicture'] = '画像付きの氏名';
+$string['fullnamewithpicturelink'] = '画像とリンク付きの氏名';
+$string['hascurrentjobs'] = '現在のジョブ';
+$string['importaudiencelogerror'] = '聴講者記録をインポートできませんでした';
+$string['importaudiencelogsuccess'] = 'インポートされた聴講者記録';
+$string['importexportreportdefinition'] = 'レポートの定義';
+$string['importexportreportdefinition_help'] = 'レポートの列、条件、フィルターを含みます';
+$string['importlogerror'] = 'レポート \'{$a}\' をインポートできませんでした';
+$string['importlogerrorinvalidformat'] = 'スケジュール形式がないか無効です';
+$string['importlogerrorinvalidsource'] = 'レポートソースがないか無効です';
+$string['importlogerrorinvalidtype'] = '無効なレポートタイプ';
+$string['importlogerrornorecipients'] = 'スケジュールの受容者が見つからないか無効です';
+$string['importlogsuccess'] = '{$a->columncount} 列、{$a->conditioncount} 条件、{$a->filtercount} フィルターを含む新しいレポート \'<a href="{$a->url}">{$a->name}</a>\' を作成しました';
+$string['importschedulelogerror'] = 'スケジュールレコードをインポートできませんでした';
+$string['importschedulelogsuccess'] = 'インポートされたスケジュールレコード';
+$string['importselectall'] = 'すべてのカスタムレポートをインポートする';
+$string['importselectlimit'] = '特定のカスタムレポートをインポートする...';
+$string['invalidcolumn'] = '無効な列';
+$string['invalidcondition'] = '無効な条件';
+$string['invalidemail'] = 'このメールアドレス \'{$a}\' は無効です';
+$string['invalidfilter'] = '無効なフィルタ';
+$string['isnotempty'] = '空白ではない';
+$string['lastcourseaccess'] = '最終コースアクセス';
+$string['lastmodified'] = '最終更新日';
+$string['lastsenton'] = '最終送信日';
+$string['lessthanaday'] = '1日未満';
+$string['managereports'] = 'カスタムレポートを管理';
+$string['message'] = 'メッセージ';
+$string['modifiedby'] = '最終更新者';
+$string['never'] = 'なし';
+$string['newaggregationfor'] = '列 \'{$a}\' の新しい総計';
+$string['newvaluefor'] = '\'{$a}\' の新しい値';
+$string['noaggregation'] = '総計無し';
+$string['nocolumnsselected'] = 'レポートに列を追加';
+$string['numberanyvalue'] = '任意の値';
+$string['numberbetween'] = '範囲内';
+$string['numberequalorgreaterthan'] = 'より大きいか等しい';
+$string['numberequalorlessthan'] = 'より小さいか等しい';
+$string['numberequalto'] = '等しい';
+$string['numbergreaterthan'] = 'より大きいか等しい';
+$string['numberisempty'] = '空白';
+$string['numberisnotempty'] = '空白ではない';
+$string['numberlessthan'] = 'より小さい';
+$string['pluginname'] = 'レポートビルダー';
+$string['preview'] = 'プレビュー';
+$string['previewmode'] = 'プレビュービューに切り替え';
+$string['privacy:metadata:preference:filters_report'] = 'レポートのユーザフィルタプロパティを保存';
+$string['privacy:metadata:reportbuilder'] = 'カスタムレポートについての情報';
+$string['privacy:metadata:reportbuilder:name'] = 'レポートの名前';
+$string['privacy:metadata:reportbuilder:source'] = 'レポートのデータソース';
+$string['privacy:metadata:reportbuilder:tenantid'] = 'レポートが属するテナントのID';
+$string['privacy:metadata:reportbuilder:timecreated'] = 'レポートの作成日時';
+$string['privacy:metadata:reportbuilder:timemodified'] = 'レポートの最終更新日';
+$string['privacy:metadata:reportbuilder:usercreated'] = 'レポートを作成したユーザのID';
+$string['privacy:metadata:reportbuilder:usermodified'] = 'レポートを最終更新したユーザのID';
+$string['privacy:metadata:reportbuilder_schedule'] = 'カスタムレポートスケジュールに関する情報';
+$string['privacy:metadata:reportbuilder_schedule:format'] = 'スケジュールされたレポートデータ形式';
+$string['privacy:metadata:reportbuilder_schedule:lastsenton'] = 'スケジュールの最終送信日時';
+$string['privacy:metadata:reportbuilder_schedule:message'] = 'スケジュールされたメッセージの内容';
+$string['privacy:metadata:reportbuilder_schedule:name'] = 'スケジュールの名前';
+$string['privacy:metadata:reportbuilder_schedule:recurrence'] = 'スケジュールの繰り返し頻度';
+$string['privacy:metadata:reportbuilder_schedule:reportid'] = 'スケジュールが属するレポートID';
+$string['privacy:metadata:reportbuilder_schedule:scheduled'] = 'スケジュールの開始予定日時';
+$string['privacy:metadata:reportbuilder_schedule:subject'] = '件名はスケジュールされたメッセージに含まれています';
+$string['privacy:metadata:reportbuilder_schedule:timecreated'] = 'スケジュールの作成日時';
+$string['privacy:metadata:reportbuilder_schedule:timemodified'] = 'スケジュールの最終更新日';
+$string['privacy:metadata:reportbuilder_schedule:usercreated'] = 'スケジュールを作成したユーザのID';
+$string['privacy:metadata:reportbuilder_schedule:usermodified'] = 'スケジュールを最終更新したユーザのID';
+$string['privacywarning'] = '警告：メールを追加する前に、法的根拠があるかどうかを確認してください。組織に適用される関連するプライバシー法に準拠しています。';
+$string['profiledepartment'] = '部門のプロファイル';
+$string['quarter'] = '4分割';
+$string['recipients'] = '受容者';
+$string['recurrenceannualy'] = '毎年';
+$string['recurrencedailyweekday'] = '毎日-平日';
+$string['recurrencedonorepeat'] = '繰り返しなし';
+$string['reg_wpreports'] = 'カスタムレポート ({$a}) の数';
+$string['removechedulesuccess'] = 'スケジュールが削除されました。';
+$string['removeconditionsuccess'] = '条件 \'{$a}\' が削除されました。';
+$string['report'] = 'レポート';
+$string['report_access_list'] = '特定のレポートへのアクセス権を持つユーザーを一覧表示するシステムレポート';
+$string['reportbuilder:edit'] = 'レポート設定を編集';
+$string['reportbuilder:read'] = 'レポートを表示';
+$string['reportcoursecompletion'] = 'データストアからのコース完了';
+$string['reportcourseenrolmentcompletion'] = 'コースの登録と完了';
+$string['reportlimitreachedsite'] = 'このサイトの最大カスタムフィールド数の制限に到達しました。レポートをいくつか削除するか管理者に連絡してください。';
+$string['reportlimitreachedtenant'] = 'このサイトでは {$a} カスタムレポートのみ作成できます。レポートをいくつか削除するか管理者に連絡してください。';
+$string['reportlimitreachedtitle'] = '制限に達したレポート';
+$string['reportlists'] = 'レポート一覧のシステムレポート';
+$string['reportname'] = 'レポート名';
+$string['reportname_help'] = 'レポート名を入力';
+$string['reportschedules'] = 'スケジュール一覧のシステムレポート';
+$string['reportstab'] = 'レポート';
+$string['reportuserslist'] = 'ユーザ一覧';
+$string['resetallconditions'] = 'すべての条件をリセット';
+$string['resetcondition'] = '条件をリセット';
+$string['resetfield'] = '\'{$a}\' フィールドをリセット';
+$string['resettable'] = 'テーブルをリセット';
+$string['rolemanager'] = 'レポートビルダーマネージャ';
+$string['rolemanagerdescription'] = '現在のテナント内でカスタムレポートを作成、管理を許可';
+$string['saveandcontinue'] = '保存して続行';
+$string['schedule'] = 'スケジュール';
+$string['scheduleaddedastask'] = 'スケジュールはできる限り早く送られます';
+$string['scheduled'] = 'スケジュールされた日';
+$string['schedulename'] = 'スケジュール名';
+$string['selectaggregation'] = '列 \'{$a}\' の総計を選択';
+$string['selectcourses'] = 'コースを選択';
+$string['selectsource'] = 'レポートソースを選択';
+$string['send'] = '送信';
+$string['send_schedulestask'] = 'スケジュールを送信';
+$string['settings'] = '設定';
+$string['shared'] = '共有';
+$string['sidebarbutton'] = 'サイドバーを表示 / 非表示';
+$string['sortingshelp'] = '並べ替え';
+$string['sortingshelp_help'] = 'デフォルトのレポート並べ替え';
+$string['sortingtab'] = '並べ替え';
+$string['subject'] = '件名';
+$string['tabletab'] = '表';
+$string['teststring2'] = 'Test string 2';
+$string['userconfirmed'] = '登録確認済み';
+$string['usersuspended'] = '登録一時停止';
+$string['userviewreportas'] = '以下のユーザとしてレポートデータを表示';
+$string['userviewreportas_help'] = 'レポートデータは、選択したユーザーが閲覧した場合と同様に含まれます。空のままにしておくと、現在のユーザーがデフォルトとして使用されます。';
+$string['viewreports'] = 'レポートビルダー';
