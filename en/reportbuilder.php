@@ -24,4 +24,3 @@
  */
 
 $string['filterdateprevious'] = 'Previous';
-$string['selectcourses'] = 'Select courses';

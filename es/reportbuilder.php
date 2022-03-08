@@ -25,7 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['filterdatemonths'] = 'Mes(es)';
+$string['filterdatenext'] = 'Siguiente';
 $string['filterdateprevious'] = 'Previos';
+$string['filterdateweeks'] = 'Semana(s)';
+$string['filterdateyears'] = 'Año(s)';
 $string['filters'] = 'Filtros';
+$string['filters_help'] = 'Lista de filtros que no se aplican automáticamente pero que están disponibles para los usuarios';
+$string['filtersappliedx'] = 'Filtros ({$a})';
+$string['hassystemrole'] = 'Asignar rol del sistema';
+$string['manuallyaddedusers'] = 'Agregar usuarios manualmente';
+$string['movecolumn'] = 'Mover la columna {$a}';
 $string['movefilter'] = 'Mover el filtro \'{$a}\'';
+$string['movesorting'] = 'Move sorting order of column \'{$a}\'';
 $string['newreport'] = 'Nuevo reporte';
+$string['newschedule'] = 'Nueva planificación';
+$string['nofilters'] = 'No hay filtros seleccionados';
+$string['or'] = 'O';
+$string['recurrence'] = 'Recurrencia';
+$string['recurrenceannualy'] = 'Anualmente';
+$string['recurrencedaily'] = 'Diario';
+$string['selectcourses'] = 'Seleccionar cursos';

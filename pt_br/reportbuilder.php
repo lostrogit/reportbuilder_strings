@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'reportbuilder', language 'it', version '4.0'.
+ * Strings for component 'reportbuilder', language 'pt_br', version '4.0'.
  *
  * @package     reportbuilder
  * @category    string
@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filterdateprevious'] = 'Pecedente';
-$string['reportviewed'] = 'Visualizzato report';
-$string['selectcourses'] = 'Seleziona corsi';
+$string['aggregationcountdistinct'] = 'Contagem dos únicos';
+$string['audience'] = 'Audiência';
+$string['conditions_help'] = 'Lista pré-definida de condições que serão aplicadas sempre quando vendo esse relatório.';
+$string['filterdateprevious'] = 'Anterior';
+$string['reportbuilder'] = 'Construtor de relatórios';
+$string['schedules'] = 'Cronogramas';
