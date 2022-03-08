@@ -25,5 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filterdateprevious'] = '以前の';
 $string['selectcourses'] = 'コースを選択';

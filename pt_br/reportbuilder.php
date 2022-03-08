@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['aggregationcountdistinct'] = 'Contagem dos únicos';
 $string['audience'] = 'Audiência';
 $string['conditions_help'] = 'Lista pré-definida de condições que serão aplicadas sempre quando vendo esse relatório.';
-$string['filterdateprevious'] = 'Anterior';
+$string['filterdatelast'] = 'Anterior';
 $string['reportbuilder'] = 'Construtor de relatórios';
 $string['schedules'] = 'Cronogramas';

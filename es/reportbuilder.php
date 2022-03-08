@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['filterdatemonths'] = 'Mes(es)';
 $string['filterdatenext'] = 'Siguiente';
-$string['filterdateprevious'] = 'Previos';
 $string['filterdateweeks'] = 'Semana(s)';
 $string['filterdateyears'] = 'Año(s)';
 $string['filters'] = 'Filtros';

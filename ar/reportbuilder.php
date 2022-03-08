@@ -25,5 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filterdateprevious'] = 'السابق';
 $string['selectcourses'] = 'اختر المقررات الدراسية';

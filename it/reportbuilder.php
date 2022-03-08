@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filterdateprevious'] = 'Pecedente';
+$string['filterdatelast'] = 'Pecedente';
 $string['reportviewed'] = 'Visualizzato report';
 $string['selectcourses'] = 'Seleziona corsi';
